@@ -77,7 +77,12 @@ This Python-based project demonstrates the implementation of a mock Authenticati
       python -m resource_api.main
 
    3. # Run Client:
-      python -m client.main --username user1 --password password
+      python -m client.main --username user1 --password password1
+   
+   Expected Response:
+   Login successful!
+   Protected data:, {'data': "{'city': 'London', 'phone': 123345}", 'message': 'Hello, user1! You have access to this protected API.'}
+
   ```
 
 ## Testing
